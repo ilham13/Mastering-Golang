@@ -1,14 +1,12 @@
 package main
 
-import (
-	"github.com/ilham13/Mastering-Golang/basic"
-)
+import "github.com/ilham13/Mastering-Golang/basic"
 
 func main() {
 	// user := basic.Username{}
 	// user.Cetak()
 
-	basic.SqlExec()
+	basic.Insert()
 
 	// users := basic.Users
 	// user := basic.User
